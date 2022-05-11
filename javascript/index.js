@@ -1,0 +1,1 @@
+console.log("This is notes Taking Application ");

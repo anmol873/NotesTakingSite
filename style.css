@@ -1,0 +1,20 @@
+.navbar
+{
+    background-color: black;
+}
+body
+{
+    background-image: linear-gradient(to top,red, yellow);
+}
+html
+{
+    background-image: linear-gradient(to top,red, yellow);
+}
+footer
+{
+    margin-top: 10rem;
+}
+.notesCard
+{
+    margin: 2rem;
+}
