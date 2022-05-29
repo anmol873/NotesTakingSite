@@ -54,7 +54,7 @@ function showNotes() {
     }
     else {
         notesElement.innerHTML = `<div class="alert alert-primary" role="alert">
-        This is a primary alert—check it out!
+       Nothing to show Here please use "Add Notes"  button to add the notes
       </div>`;
     }
 }
@@ -76,6 +76,9 @@ function deleteNode(index) {
     localStorage.setItem("notes",JSON.stringify(notesObj));
     showNotes();
 }
+
+
+//search notes fucntion
 
 let search = document.getElementById("searchNotes");
 search.addEventListener("input",function()

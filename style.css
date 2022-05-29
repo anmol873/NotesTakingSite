@@ -5,7 +5,7 @@
 body
 {
     
-    background-image: linear-gradient(red, yellow);
+    background-image: linear-gradient(rgb(118, 165, 155), rgb(116, 115, 130));
 }
 footer
 {
@@ -28,4 +28,23 @@ footer
 .deleteButton
 {
     margin: 2rem;
+}
+.footer
+{
+    background-color: rgb(36, 35, 35);
+    color: white;
+    text-align: center;
+}
+
+.footer-text
+{
+    font-size: 1.5rem;
+}
+
+.alert
+{
+    font-size: 1.3rem;
+    color: black;
+    text-align: center;
+    justify-content: center;
 }
