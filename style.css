@@ -4,17 +4,28 @@
 }
 body
 {
-    background-image: linear-gradient(to top,red, yellow);
-}
-html
-{
-    background-image: linear-gradient(to top,red, yellow);
+    
+    background-image: linear-gradient(red, yellow);
 }
 footer
 {
     margin-top: 10rem;
 }
 .notesCard
+{
+    margin: 2rem;
+}
+.alert-primary
+{
+    height: 15vh;
+    justify-content: center;
+    align-items:center;
+}
+.notes-card-body
+{
+    min-height: 10rem;
+}
+.deleteButton
 {
     margin: 2rem;
 }
